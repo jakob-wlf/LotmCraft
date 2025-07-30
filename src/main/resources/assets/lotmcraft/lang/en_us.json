@@ -1,0 +1,96 @@
+{
+  "item.lotmcraft.fool_card": "Fool Card",
+  "item.lotmcraft.lotm_icon": "LotM Icon",
+
+  "block.lotmcraft.space_block": "Space Block",
+
+  "creativetab.lotmcraft.lotm_tab": "Lord of the Mysteries",
+  "creativetab.lotmcraft.abilities_tab": "Beyonder Abilities",
+  "creativetab.lotmcraft.passive_abilities_tab": "Passive Beyonder Abilities",
+
+
+
+  "_comment000": "Key Binds-------------------------------------------------------------------------------------",
+  "key.beyonders.become_beyonder_debug": "Become a Beyonder",
+  "key.beyonders.switch_beyonder": "Switch Beyonder Pathway",
+  "key.beyonders.get_abilities": "Get all Abilities",
+  "key.beyonders.clear_beyonder": "Clear Beyonder Status",
+  "key.beyonders.open_ability_selection": "Open Ability Selection",
+  "key.categories.beyonders": "Beyonders",
+  "key.beyonders.toggle_griefing": "Toggle Griefing",
+  "key.beyonders.show_passives": "Show Passive Abilities",
+  "key.beyonders.switch_ability": "Switch Ability",
+  "key.beyonders.increase_sequence": "Increase Sequence",
+  "key.beyonders.decrease_sequence": "Decrease Sequence",
+
+
+
+  "_comment001": "Abilities------------------------------------------------------------------------------------",
+
+  "item.lotmcraft.cogitation_ability": "Cogitation",
+  "item.lotmcraft.divination_ability": "Divination",
+  "item.lotmcraft.spirit_vision_ability": "Spirit Vision",
+
+  "item.lotmcraft.illuminate_ability": "Illuminate",
+  "item.lotmcraft.holy_song_ability": "Holy Song",
+  "item.lotmcraft.holy_light_ability": "Holy Light",
+  "item.lotmcraft.fire_of_light_ability": "Fire of Light",
+  "item.lotmcraft.holy_light_summoning_ability": "Holy Light Summoning",
+  "item.lotmcraft.cleave_of_purification_ability": "Cleave of Purification",
+
+  "item.lotmcraft.trap_ability": "Trap",
+  "item.lotmcraft.provoking_ability": "Provoking",
+  "item.lotmcraft.pyrokinesis_ability": "Pyrokinesis",
+  "ability.lotmcraft.pyrokinesis.fireball": "Fireball",
+  "ability.lotmcraft.pyrokinesis.wall_of_fire": "Wall of Fire",
+  "ability.lotmcraft.pyrokinesis.fire_ravens": "Fire Ravens",
+  "ability.lotmcraft.pyrokinesis.flaming_spear": "Flaming Spear",
+  "ability.lotmcraft.pyrokinesis.flame_wave": "Flame Wave",
+
+  "item.lotmcraft.raging_blows_ability": "Raging Blows",
+  "item.lotmcraft.water_manipulation_ability": "Water Manipulation",
+  "ability.lotmcraft.water_manipulation.water_bolt": "Water Bolt",
+  "ability.lotmcraft.water_manipulation.aqueous_light": "Aqueous Light",
+  "ability.lotmcraft.water_manipulation.water_whip": "Water Whip",
+  "ability.lotmcraft.water_manipulation.water_surge": "Water Surge",
+  "ability.lotmcraft.water_manipulation.corrosive_rain": "Corrosive Rain",
+
+  "item.lotmcraft.toxic_smoke_ability": "Toxic Smoke",
+  "item.lotmcraft.poisonous_flame_ability": "Poisonous Flame",
+
+  "item.lotmcraft.flame_controlling_ability": "Flame Controlling",
+  "item.lotmcraft.air_bullet_ability": "Air Bullet",
+  "item.lotmcraft.paper_figurine_substitute_ability": "Paper Figurine Substitute",
+  "item.lotmcraft.flaming_jump_ability": "Flaming Jump",
+  "item.lotmcraft.underwater_breathing_ability": "Underwater Breathing",
+
+  "lotm.ability.cogitation.tick": "Cogitating",
+
+
+
+  "_comment002": "Passive Abilities-----------------------------------------------------------------------------",
+  "item.lotmcraft.physical_enhancements_red_priest_ability": "Physical Enhancements",
+  "item.lotmcraft.physical_enhancements_abyss_ability": "Physical Enhancements",
+  "item.lotmcraft.physical_enhancements_chained^_ability": "Physical Enhancements",
+  "item.lotmcraft.physical_enhancements_death_ability": "Physical Enhancements",
+  "item.lotmcraft.physical_enhancements_door_ability": "Physical Enhancements",
+  "item.lotmcraft.physical_enhancements_fool_ability": "Physical Enhancements",
+  "item.lotmcraft.physical_enhancements_hermit_ability": "Physical Enhancements",
+  "item.lotmcraft.physical_enhancements_moon_ability": "Physical Enhancements",
+  "item.lotmcraft.physical_enhancements_sun_ability": "Physical Enhancements",
+  "item.lotmcraft.physical_enhancements_twilight_giant_ability": "Physical Enhancements",
+  "item.lotmcraft.physical_enhancements_demoness_ability": "Physical Enhancements",
+  "item.lotmcraft.physical_enhancements_tyrant_ability": "Physical Enhancements",
+  "item.lotmcraft.physical_enhancements_darkness_ability": "Physical Enhancements",
+
+  "item.lotmcraft.flaming_hit_ability": "Flaming Hit",
+  "item.lotmcraft.fire_resistance_ability": "Fire Resistance",
+
+  "item.lotmcraft.paper_dagger_ability": "Paper Daggers",
+
+  "item.lotmcraft.nocturnality_ability": "Nocturnality",
+
+  "lotm.griefing": "Griefing Enabled",
+  "lotm.selected": "Selected",
+  "lotm.beyonder_message.full": "Become a Beyonder of the %s Pathway at Sequence %s"
+}
