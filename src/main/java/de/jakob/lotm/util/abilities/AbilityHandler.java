@@ -6,6 +6,7 @@ import de.jakob.lotm.abilities.DivinationAbility;
 import de.jakob.lotm.abilities.SpiritVisionAbility;
 import de.jakob.lotm.abilities.abyss.PoisonousFlameAbility;
 import de.jakob.lotm.abilities.abyss.ToxicSmokeAbility;
+import de.jakob.lotm.abilities.darkness.MidnightPoemAbility;
 import de.jakob.lotm.abilities.fool.*;
 import de.jakob.lotm.abilities.red_priest.ProvokingAbility;
 import de.jakob.lotm.abilities.red_priest.Pyrokinesis;
@@ -49,6 +50,8 @@ public class AbilityHandler {
     public static DeferredItem<Item> PAPER_FIGURINE_SUBSTITUTE = ITEMS.registerItem("paper_figurine_substitute_ability", PaperFigurineSubstituteAbility::new, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC));
     public static DeferredItem<Item> FLAMING_JUMP = ITEMS.registerItem("flaming_jump_ability", FlamingJumpAbility::new, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC));
     public static DeferredItem<Item> UNDERWATER_BREATHING = ITEMS.registerItem("underwater_breathing_ability", UnderWaterBreathingAbility::new, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC));
+
+    public static DeferredItem<Item> MIDNIGHT_POEM = ITEMS.registerItem("midnight_poem_ability", MidnightPoemAbility::new, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC));
 
     public static void registerAbilities(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -64,6 +64,10 @@
   "item.lotmcraft.flaming_jump_ability": "Flaming Jump",
   "item.lotmcraft.underwater_breathing_ability": "Underwater Breathing",
 
+  "item.lotmcraft.midnight_poem_ability": "Midnight Poem",
+  "ability.lotmcraft.midnight_poem.lullaby": "Lullaby",
+  "ability.lotmcraft.midnight_poem.wilt": "Wilt",
+
   "lotm.ability.cogitation.tick": "Cogitating",
 
 
@@ -89,6 +93,12 @@
   "item.lotmcraft.paper_dagger_ability": "Paper Daggers",
 
   "item.lotmcraft.nocturnality_ability": "Nocturnality",
+
+  "_comment003": "Effects-----------------------------------------------------------------------------",
+  "effect.lotmcraft.asleep": "Asleep",
+
+  "_comment004": "Sounds-----------------------------------------------------------------------------",
+  "sounds.lotmcraft.midnight_poem": "Midnight Poem",
 
   "lotm.griefing": "Griefing Enabled",
   "lotm.selected": "Selected",

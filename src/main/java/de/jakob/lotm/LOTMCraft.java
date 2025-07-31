@@ -1,6 +1,7 @@
 package de.jakob.lotm;
 
 import com.mojang.logging.LogUtils;
+import de.jakob.lotm.effect.ModEffects;
 import de.jakob.lotm.entity.ModEntities;
 import de.jakob.lotm.entity.client.FlamingSpearProjectileRenderer;
 import de.jakob.lotm.entity.client.PaperDaggerProjectileRenderer;
@@ -10,6 +11,7 @@ import de.jakob.lotm.item.ModCreativeModTabs;
 import de.jakob.lotm.item.ModItems;
 import de.jakob.lotm.network.PacketHandler;
 import de.jakob.lotm.particle.*;
+import de.jakob.lotm.sound.ModSounds;
 import de.jakob.lotm.util.BeyonderData;
 import de.jakob.lotm.util.abilities.AbilityHandler;
 import de.jakob.lotm.util.Config;
@@ -68,6 +70,8 @@ public class LOTMCraft
         ModMenuTypes.register(modEventBus);
         ModParticles.register(modEventBus);
         ModEntities.register(modEventBus);
+        ModEffects.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         AbilityHandler.registerAbilities(modEventBus);
         PassiveAbilityHandler.registerAbilities(modEventBus);

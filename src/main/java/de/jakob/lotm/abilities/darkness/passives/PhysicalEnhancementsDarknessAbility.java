@@ -7,6 +7,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.level.Level;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -112,6 +113,20 @@ public class PhysicalEnhancementsDarknessAbility extends PassiveAbilityItem {
         }
 
         List<MobEffectInstance> effects = getEffectsForSequence(sequence);
+
+        if(level.isNight()) {
+            List<MobEffectInstance> nightEffects = new ArrayList<>();
+            for(MobEffectInstance effect : effects) {
+                if(effect.getEffect() != MobEffects.DAMAGE_RESISTANCE || effect.getAmplifier() < 3) {
+                    nightEffects.add(new MobEffectInstance(effect.getEffect(), effect.getDuration(), effect.getAmplifier() + 1, effect.isAmbient(), effect.isVisible(), effect.showIcon()));
+                }
+                else nightEffects.add(new MobEffectInstance(effect.getEffect(), effect.getDuration(), effect.getAmplifier(), effect.isAmbient(), effect.isVisible(), effect.showIcon()));
+            }
+
+            applyPotionEffects(entity, nightEffects);
+            return;
+        }
+
         applyPotionEffects(entity, effects);
     }
 

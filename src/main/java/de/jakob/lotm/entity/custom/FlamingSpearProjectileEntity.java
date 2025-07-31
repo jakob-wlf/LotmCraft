@@ -65,7 +65,7 @@ public class FlamingSpearProjectileEntity extends AbstractArrow {
             return;
         }
 
-        ParticleUtil.spawnParticles((ServerLevel) level, ParticleTypes.FLAME, position(), 3, .5, .045);
+        ParticleUtil.spawnParticles((ServerLevel) level, ParticleTypes.FLAME, position(), random.nextInt(1, 4), .5, .045);
     }
 
     @Override
